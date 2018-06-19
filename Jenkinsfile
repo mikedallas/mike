@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+  agent {
+    label 'jdk9'
+  }
   stages {
     stage('Jenkins World is now') {
       steps {
