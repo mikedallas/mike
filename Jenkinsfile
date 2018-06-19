@@ -4,6 +4,7 @@ pipeline {
     stage('Jenkins World is now') {
       steps {
         echo 'DevOps World'
+        sh 'java -version'
       }
     }
   }
