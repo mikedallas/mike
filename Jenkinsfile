@@ -1,9 +1,9 @@
 pipeline {
-  agent any
+  agent none
   stages {
-    stage('') {
+    stage('Jenkins World is now') {
       steps {
-        echo 'Say Hello'
+        echo 'DevOps World'
       }
     }
   }
